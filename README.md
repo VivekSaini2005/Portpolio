@@ -8,7 +8,10 @@ A modern, responsive personal portfolio website built with **React.js**, **Tailw
 
 ## 📸 Preview
 
-![Portfolio Preview](src/assets/image.png)
+
+<a href="https://portpolio-xi-seven.vercel.app/">
+  <img src="./src/assets/image2.gif" alt="Portfolio Demo" width="100%">
+</a>
 
 ---
 
