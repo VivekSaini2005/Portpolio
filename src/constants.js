@@ -244,7 +244,7 @@ export const SkillsInfo = [
     },
     {
       id: 4,
-      img: collabnestlogo,
+      img: collabnest,
       role: "Full Stack Developer",
       company: "CollabNest - Real-Time Communication Platform",
       date: "July 2026 - August 2026",
@@ -389,7 +389,7 @@ export const projects = [
     title: "CollabNest — Real-Time Communication & Collaboration Platform",
     description:
       "Built a full-stack real-time collaboration platform featuring multi-user video conferencing, screen sharing, live chat, collaborative whiteboard, secure file sharing, and JWT-based authentication using WebRTC, Socket.io, and the MERN stack.",
-    image: collabnest,
+    image: collabnestlogo,
     tags: [
       "React.js",
       "Vite",
