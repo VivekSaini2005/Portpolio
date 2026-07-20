@@ -50,7 +50,7 @@ import codecanvasLogo from './assets/company_logo/codecanvasai.png';
 import codingPlatformLogo from './assets/company_logo/codehub.png';
 import aiWebGeneratorLogo from './assets/company_logo/aiwebgenerator.png';
 import cseWebsiteLogo from './assets/company_logo/csewebsite.png';
-
+import collabnest from './assets/company_logo/colabnest.png';
 
 // Education Section Logo's
 import aktuLogo from './assets/education_logo/aktu_logo.png';
@@ -63,6 +63,7 @@ import cselogo from './assets/work_logo/cselogo.png';
 import codecanvlogo from './assets/work_logo/codecanai.png';
 import codehublogo from './assets/work_logo/codehublogo.png';
 import webgenlogo from './assets/work_logo/webgenlogo.png';
+import collabnestlogo from './assets/work_logo/CollabNest.png';
 
 export const SkillsInfo = [
   {
@@ -241,6 +242,32 @@ export const SkillsInfo = [
         "Git",
       ],
     },
+    {
+      id: 4,
+      img: collabnestlogo,
+      role: "Full Stack Developer",
+      company: "CollabNest - Real-Time Communication Platform",
+      date: "July 2026 - August 2026",
+      desc: "Designed and developed a production-inspired real-time communication and collaboration platform featuring multi-user video conferencing, screen sharing, live chat, collaborative whiteboard, and secure file sharing. Implemented WebRTC for peer-to-peer media streaming, Socket.io for real-time communication, JWT-based authentication, and MongoDB for persistent data storage. Built a modern, responsive interface using React.js, Vite, and Tailwind CSS with dark/light theme support, ensuring seamless frontend-backend integration and a scalable architecture.",
+      skills: [
+        "React JS",
+        "Vite",
+        "Tailwind CSS",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "WebRTC",
+        "Socket.io",
+        "JWT",
+        "REST API",
+        "Axios",
+        "JavaScript",
+        "Cloudinary",
+        "Multer",
+        "Git",
+        "GitHub",
+      ],
+    },
    ];
   
   export const education = [
@@ -355,5 +382,31 @@ export const projects = [
     ],
     github: "https://github.com/VivekSaini2005/CSE-WEBSITE",
     webapp: "https://cse-website-ten.vercel.app/",
+  },
+
+  {
+    id: 4,
+    title: "CollabNest — Real-Time Communication & Collaboration Platform",
+    description:
+      "Built a full-stack real-time collaboration platform featuring multi-user video conferencing, screen sharing, live chat, collaborative whiteboard, secure file sharing, and JWT-based authentication using WebRTC, Socket.io, and the MERN stack.",
+    image: collabnest,
+    tags: [
+      "React.js",
+      "Vite",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "WebRTC",
+      "Socket.io",
+      "JWT",
+      "REST API",
+      "Axios",
+      "Cloudinary",
+      "Multer",
+      "JavaScript",
+    ],
+    github: "https://github.com/VivekSaini2005/chat_application",
+    webapp: "https://chat-application-flax-two.vercel.app/",
   },
 ];
