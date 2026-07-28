@@ -51,6 +51,7 @@ import codingPlatformLogo from './assets/company_logo/codehub.png';
 import aiWebGeneratorLogo from './assets/company_logo/aiwebgenerator.png';
 import cseWebsiteLogo from './assets/company_logo/csewebsite.png';
 import collabnest from './assets/company_logo/colabnest.png';
+import ecommercelogo from './assets/company_logo/ecom.png';
 
 // Education Section Logo's
 import aktuLogo from './assets/education_logo/aktu_logo.png';
@@ -64,6 +65,7 @@ import codecanvlogo from './assets/work_logo/codecanai.png';
 import codehublogo from './assets/work_logo/codehublogo.png';
 import webgenlogo from './assets/work_logo/webgenlogo.png';
 import collabnestlogo from './assets/work_logo/CollabNest.png';
+import ecomphoto from './assets/work_logo/ecomphoto.png';
 
 export const SkillsInfo = [
   {
@@ -248,7 +250,7 @@ export const SkillsInfo = [
       role: "Full Stack Developer",
       company: "CollabNest - Real-Time Communication Platform",
       date: "July 2026 - August 2026",
-      desc: "Designed and developed a production-inspired real-time communication and collaboration platform featuring multi-user video conferencing, screen sharing, live chat, collaborative whiteboard, and secure file sharing. Implemented WebRTC for peer-to-peer media streaming, Socket.io for real-time communication, JWT-based authentication, and MongoDB for persistent data storage. Built a modern, responsive interface using React.js, Vite, and Tailwind CSS with dark/light theme support, ensuring seamless frontend-backend integration and a scalable architecture.",
+      desc: "Designed and developed a production-inspired real-time communication and collaboration platform featuring multi-user video conferencing, screen sharing, live chat, collaborative whiteboard, and secure file sharing. Implemented WebRTC for peer-to-peer media streaming, Socket.io for real-time communication, JWT-based authentication, and MongoDB for persistent data storage.",
       skills: [
         "React JS",
         "Vite",
@@ -258,6 +260,30 @@ export const SkillsInfo = [
         "MongoDB",
         "WebRTC",
         "Socket.io",
+        "JWT",
+        "REST API",
+        "Axios",
+        "JavaScript",
+        "Cloudinary",
+        "Multer",
+        "Git",
+        "GitHub",
+      ],
+    },
+    {
+      id: 5,
+      img: ecommercelogo,
+      role: "Full Stack Developer",
+      company: "E-Commerce Website",
+      date: "July 2026 - August 2026",
+      desc: "Designed and developed a full-stack e-commerce platform with secure JWT-based authentication, role-based access control, dynamic product catalog, shopping cart, wishlist, order management, and payment integration. Implemented RESTful APIs using the MERN stack, optimized MongoDB queries for efficient data retrieval, and built a responsive, modern user interface using React.js, Vite, and Tailwind CSS.",
+      skills: [
+        "React JS",
+        "Vite",
+        "Tailwind CSS",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
         "JWT",
         "REST API",
         "Axios",
@@ -407,6 +433,29 @@ export const projects = [
       "JavaScript",
     ],
     github: "https://github.com/VivekSaini2005/chat_application",
+    webapp: "https://chat-application-flax-two.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "E-Commerce Website — Full-Stack Online Shopping Platform",
+    description:
+      "Developed a full-stack e-commerce platform featuring secure authentication, product catalog, shopping cart, wishlist, order management, admin dashboard, and payment integration using the MERN stack with a responsive React.js interface.",
+    image: ecomphoto,
+    tags: [
+      "React.js",
+      "Vite",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "REST API",
+      "Axios",
+      "Cloudinary",
+      "Multer",
+      "JavaScript",
+    ],
+    github: "https://github.com/VivekSaini2005/E-Commerce-Website",
     webapp: "https://chat-application-flax-two.vercel.app/",
   },
 ];
